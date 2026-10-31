@@ -1,0 +1,16 @@
+# Local agent settings
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Secrets and local config (docs/conventions.md#secrets-and-personal-data)
+.env
+.env.*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+tfplan
+crash.log
